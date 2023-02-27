@@ -134,7 +134,15 @@ h6 {
 .section-with-bg {
   background-color: #f6f7fd;
 }
-
+/* 
+poster
+*/
+.poster img{
+  max-width: 1550px;
+  padding: 100px;
+  align-items: center;
+  
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -786,7 +794,7 @@ h6 {
 }
 
 #speakers-details {
-  padding: 60px 0;
+  padding: 60px 100px;
 }
 
 #speakers-details .details h2 {
@@ -794,6 +802,7 @@ h6 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
+  padding: 50PX;
 }
 
 #speakers-details .details .social {
