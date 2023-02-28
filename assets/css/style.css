@@ -531,6 +531,10 @@ poster
   max-height: 100px;
   float: left;
 }
+.clg{
+  max-height: 200px;
+  max-width: 200px;
+}
 @media(max-width:991px){
   #hero img{
     max-width: 50px;
