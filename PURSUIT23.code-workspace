@@ -3,6 +3,9 @@
 		{
 			"name": "PURSUIT23",
 			"path": "."
+		},
+		{
+			"path": "../django"
 		}
 	],
 	"settings": {
