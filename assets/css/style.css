@@ -527,8 +527,8 @@ poster
   }
 }
 #hero img {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 25rem;
+  max-height: 25rem;
   float: left;
 }
 .clg{
@@ -537,7 +537,7 @@ poster
 }
 @media(max-width:991px){
   #hero img{
-    max-width: 50px;
+    max-width: 20rem;
   }
 }
 
@@ -1888,6 +1888,7 @@ poster
   text-align: center;
   border-radius: 4px;
   position: relative;
+  /* left: 50%; */
   overflow: hidden;
   border: 2px solid #e9ecee;
 }
@@ -1902,7 +1903,7 @@ poster
 
 .pricing h4 {
   font-size: 36px;
-  color: #009cea;
+  color: #f82249;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1934,7 +1935,7 @@ poster
 }
 
 .pricing ul i {
-  color: #009cea;
+  color: #f82249;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1950,7 +1951,7 @@ poster
 }
 
 .pricing .btn-buy {
-  background: #009cea;
+  background: #f82249;
   display: inline-block;
   padding: 8px 30px;
   border-radius: 4px;
@@ -1962,8 +1963,8 @@ poster
 }
 
 .pricing .featured {
-  background: #009cea;
-  border-color: #009cea;
+  background: #f82249;
+  border-color: #f82249;
 }
 
 .pricing .featured h3,
@@ -1976,7 +1977,7 @@ poster
 
 .pricing .featured .btn-buy {
   background: #fff;
-  color: #009cea;
+  color: #f82249;
 }
 
 .pricing .advanced {
@@ -1988,6 +1989,6 @@ poster
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #009cea;
+  background: #f82249;
   color: #fff;
 }
